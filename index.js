@@ -10,7 +10,7 @@ exports.handler = (event, context, callback) => {
       comment: event.comment,
       date: event.date
     },
-    TableName: "Comments"
+    TableName: "COMMENT"
   };
 
   docClient.put(params, function (err, data) {
