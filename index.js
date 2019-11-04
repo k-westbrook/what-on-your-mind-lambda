@@ -8,7 +8,8 @@ exports.handler = (event, context, callback) => {
       comment_id: uuidV4(),
       category: event.category,
       comment: event.comment,
-      date: event.date
+      date: event.date,
+      printDate: event.printDate
     },
     TableName: "COMMENT"
   };
