@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/k-westbrook/what-on-your-mind-lambda#readme",
   "dependencies": {
-    "aws-sdk": "^2.562.0",
+    "aws-sdk": "^2.814.0",
     "uuid": "^3.3.3"
   }
 }
